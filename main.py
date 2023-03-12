@@ -47,5 +47,3 @@ while a != 0:
 # виписуємо дані працівників
 for p in pracivnuk:
   p.print_person()
-
-  
