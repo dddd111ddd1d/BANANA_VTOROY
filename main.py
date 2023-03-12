@@ -35,3 +35,6 @@ while a != 0:
   pracivnuk.append(p)
   a -= 1
 
+for p in pracivnuk:
+  p.print_person()
+  
