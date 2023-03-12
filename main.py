@@ -13,7 +13,6 @@ class Person:
     self.isMale = res["results"][0]["gender"] == "male"
 
 
-
   def print_person(self):
     if self.isMale:
       print(Fore.CYAN)
@@ -30,3 +29,9 @@ a = input("Ckilki tobi treba pracuvnukiv dla kompanii?")
 a = int(a)
 
 pracivnuk = []
+
+while a != 0:
+  p = Person('ua')
+  pracivnuk.append(p)
+  a -= 1
+
