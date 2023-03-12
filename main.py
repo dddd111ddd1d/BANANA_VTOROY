@@ -34,6 +34,7 @@ gen = "male"
 
 if m == "-":
   gen = "female"
+  
 
 pracivnuk = []
 
@@ -44,4 +45,6 @@ while a != 0:
 
 for p in pracivnuk:
   p.print_person()
+
+print("hvatit?")
   
