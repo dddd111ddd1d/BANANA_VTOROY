@@ -26,11 +26,7 @@ class Person:
     print(self.email)
     print(self.isMale)
 
-random_person = Person('ua')
-random_person.print_person()
+a = input("Ckilki tobi treba pracuvnukiv dla kompanii?")
+a = int(a)
 
-try:
-  person2 = Person()
-  person2.print_person()
-except:
-  print("не можна")
+pracivnuk = []
